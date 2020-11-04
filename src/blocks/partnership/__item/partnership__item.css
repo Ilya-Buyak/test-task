@@ -1,0 +1,9 @@
+.partnership__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.partnership__item:last-child {
+  margin: 0;
+}

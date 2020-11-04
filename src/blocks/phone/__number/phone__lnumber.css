@@ -1,0 +1,8 @@
+.phone__number {
+  font-family: 'Commissioner',Ariel,sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5)
+}

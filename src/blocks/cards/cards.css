@@ -1,0 +1,12 @@
+@import url(./../card/card.css);
+@import url(./__margin/cards__margin.css);
+
+.cards {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  margin: 35px auto 0 auto;
+}

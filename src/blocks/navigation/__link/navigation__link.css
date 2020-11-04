@@ -1,0 +1,25 @@
+.navigation__link {
+  font-family: 'Commissioner',Arial,sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.75);
+  text-decoration: none;
+  margin: 0 0 0 50px;
+}
+
+.navigation__link:hover {
+  opacity: .6;
+}
+
+.navigation__link:first-child {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 1021px) {
+  .navigation__link {
+    margin-left: 20px;
+  }
+}

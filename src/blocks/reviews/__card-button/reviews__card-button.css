@@ -1,0 +1,16 @@
+.reviews__card-button {
+  font-family: 'Lato',Arial,sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+  background-color: transparent;
+}
+
+.reviews__card-button:hover {
+  cursor: pointer;
+  opacity: .5;
+}

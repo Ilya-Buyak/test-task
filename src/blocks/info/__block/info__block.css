@@ -1,0 +1,7 @@
+@import url(./_flex/info__block_flex.css);
+.info__block {
+  padding: 50px 50px 80px 50px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  position: relative;
+}

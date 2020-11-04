@@ -1,0 +1,6 @@
+.reviews__card {
+  width: calc(50% - 20px);
+  padding: 0;
+  margin: 0 30px 0 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}

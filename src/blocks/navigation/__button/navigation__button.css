@@ -1,0 +1,8 @@
+.navigation__button {
+  border: none;
+  background-color: transparent;
+}
+
+.navigation__button:hover {
+  cursor: pointer;
+}

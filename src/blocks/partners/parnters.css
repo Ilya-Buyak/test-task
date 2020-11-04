@@ -1,0 +1,13 @@
+@import url(./__text/partners__text.css);
+@import url(./../white-button/white-button.css);
+@import url(./__images/partners__images.css);
+@import url(./__img/partners__img.css);
+
+.partners {
+  padding-top: 105px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,10 @@
+.language__name {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 14px;
+}
+
+.language__name:hover {
+  cursor: pointer;
+  opacity: .3;
+}

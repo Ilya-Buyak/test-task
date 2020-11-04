@@ -1,0 +1,18 @@
+@import url(./_width/services__card_width.css);
+
+.services__card {
+  min-height: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  position: relative;
+  padding: 15px 30px 20px 100px;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.services__card:nth-child(odd) {
+  margin-right: 30px;
+}

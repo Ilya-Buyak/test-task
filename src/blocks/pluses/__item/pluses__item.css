@@ -1,0 +1,9 @@
+.pluses__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.pluses__item:last-child {
+  margin: 0;
+}
