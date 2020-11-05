@@ -1,0 +1,10 @@
+@import url(./__blocks/info__blocks.css);
+@import url(./__block/info__block.css);
+@import url(./__title/info__title.css);
+@import url(./__margin/info__margin.css);
+@import url(./__width/info__width.css);
+
+.info {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}

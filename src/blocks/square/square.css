@@ -1,0 +1,11 @@
+@import url(./__medium-opacity/square__medium-opacity.css);
+@import url(./__low-opacity/square__low-opacity.css);
+
+.square {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 70px;
+  height: 100%;
+  background-color: #DEC377;
+}

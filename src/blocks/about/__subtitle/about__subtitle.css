@@ -1,0 +1,7 @@
+.about__subtitle {
+  margin: 0 0 35px 0;
+  max-width: 470px;
+}
+.about__subtitle:last-child {
+  margin-bottom: 0;
+}

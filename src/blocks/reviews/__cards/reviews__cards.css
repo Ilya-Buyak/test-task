@@ -1,0 +1,6 @@
+.reviews__cards {
+  padding: 0;
+  list-style: none;
+  max-width: 1170px;
+  margin: 35px auto 30px auto;
+}

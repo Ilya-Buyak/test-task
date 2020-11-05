@@ -1,0 +1,10 @@
+.services__card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 700px) {
+  .services__card-container {
+    flex-direction: column;
+  }
+}

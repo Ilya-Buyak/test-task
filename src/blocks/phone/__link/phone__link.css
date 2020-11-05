@@ -1,0 +1,11 @@
+.phone__link {
+  text-decoration: none;
+  margin-right: 15px;
+}
+.phone__link:hover {
+  opacity: 0.3;
+}
+
+.phone__link:last-child {
+  margin: 0;
+}

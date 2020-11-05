@@ -1,0 +1,20 @@
+@import url(./../../language/language.css);
+@import url(./../../phone/phone.css);
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__container:last-child {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 636px) {
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+}

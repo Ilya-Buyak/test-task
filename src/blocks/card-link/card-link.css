@@ -1,0 +1,14 @@
+.card-link {
+  font-family: 'Lato',Arial,sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.card-link:hover {
+  opacity: 0.5;
+}

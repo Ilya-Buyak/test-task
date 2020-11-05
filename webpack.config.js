@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-
+const ImageminPlugin = require('imagemin-webpack-plugin').default
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
@@ -71,6 +71,11 @@ module.exports = {
     new WebpackMd5Hash(),
     new webpack.DefinePlugin({
       'NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+    }),
+    new ImageminPlugin({
+      pngquant: {
+        quality: '80-90'
+      }
     })
   ],
   devServer: {

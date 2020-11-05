@@ -1,0 +1,16 @@
+.info__blocks {
+  padding: 0 20px 0 20px;
+  list-style: none;
+  max-width: 1170px;
+  margin: 0 auto 80px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+@media screen and (max-width: 700px){
+  .info__blocks {
+    grid-template-columns: 1fr;
+  }
+}

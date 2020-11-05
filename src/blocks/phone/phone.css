@@ -1,0 +1,16 @@
+@import url(./__link/phone__link.css);
+@import url(./__number/phone__lnumber.css);
+@import url(./__img/phone__img.css);
+
+.phone {
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 635px) {
+  .phone {
+    margin-left: 30px;
+  }
+}

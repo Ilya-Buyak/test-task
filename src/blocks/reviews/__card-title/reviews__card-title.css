@@ -1,0 +1,9 @@
+.reviews__card-title {
+  font-family: 'Commissioner',Arial,sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  color: #DEC377;
+  margin: 0 0 20px 0;
+}

@@ -1,0 +1,29 @@
+@import url(./blocks/wrapper/wrapper.css);
+@import url(./vendor/fonts.css);
+@import url(./vendor/flickity.css);
+@import url(./blocks/container/container.css);
+@import url(./blocks/grey-container/grey-container.css);
+@import url(./blocks/title/title.css);
+@import url(./blocks/subtitle/subtitle.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/cover/cover.css);
+@import url(./blocks/main/main.css);
+@import url(./blocks/card-title/card-title.css);
+@import url(./blocks/card-link/card-link.css);
+@import url(./blocks/reviews/reviews.css);
+@import url(./blocks/partners/parnters.css);
+@import url(./blocks/info/info.css);
+@import url(./blocks/rectangle/rectangle.css);
+@import url(./blocks/background/background.css);
+@import url(./blocks/services/services.css);
+@import url(./blocks/square/square.css);
+@import url(blocks/pluses/pluses.css);
+@import url(./blocks/advantages/advantages.css);
+@import url(./blocks/partnership/partnership.css);
+@import url(./blocks/form/form.css);
+@import url(./blocks/price/price.css);
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/copyright/copyright.css);
+
+
+

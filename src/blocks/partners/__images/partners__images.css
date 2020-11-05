@@ -1,0 +1,12 @@
+.partners__images {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 60px;
+  align-items: center;
+  justify-items: center;
+  margin: 40px 0 0 0;
+  overflow: overlay;
+}

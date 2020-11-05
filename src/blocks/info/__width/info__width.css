@@ -1,0 +1,10 @@
+.info__width {
+  margin: 0;
+  max-width: 720px;
+}
+
+@media screen and (max-width: 1100px){
+  .info__width {
+    margin-top: 15px;
+  }
+}

@@ -1,0 +1,10 @@
+@import url(./__name/language__name.css);
+
+.language {
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.4);
+  margin: 0;
+}

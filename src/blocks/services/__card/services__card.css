@@ -1,0 +1,29 @@
+@import url(./_width/services__card_width.css);
+
+.services__card {
+  min-height: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  position: relative;
+  padding: 15px 30px 20px 100px;
+  margin-bottom: 30px;
+}
+
+
+@media screen and (min-width: 701px) {
+  .services__card {
+    width: 50%;
+  }
+  .services__card:nth-child(odd) {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .services__card {
+    max-width: 550px;
+  }
+}

@@ -1,0 +1,19 @@
+.orange-button {
+  background-color: #DEC377;
+  border-radius: 2px;
+  border: none;
+  outline: #fff;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Commissioner',Arial,sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  letter-spacing: 0.08em;
+  padding: 10px 50px 10px 50px;
+}
+.orange-button:hover {
+  cursor: pointer;
+  transition: .5s;
+  opacity: .7;
+}

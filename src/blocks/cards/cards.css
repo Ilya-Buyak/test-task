@@ -1,0 +1,26 @@
+@import url(./../card/card.css);
+@import url(./__margin/cards__margin.css);
+
+.cards {
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  max-width: 1170px;
+  margin: 35px auto 0 auto;
+}
+
+@media screen and (max-width: 1170px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
