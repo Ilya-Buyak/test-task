@@ -1,6 +1,14 @@
 .reviews__card {
-  width: calc(50% - 20px);
+  width: calc(50% - 30px);
   padding: 0;
   margin: 0 30px 0 0;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transform: translateX(-53%);
+}
+
+@media screen and (max-width: 1103px) {
+  .reviews__card {
+    width: calc(100% - 30px);
+    transform: translateX(105%);
+  }
 }

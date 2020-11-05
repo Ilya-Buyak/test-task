@@ -8,3 +8,9 @@
   grid-column-gap: 30px;
   grid-row-gap: 30px;
 }
+
+@media screen and (max-width: 700px){
+  .info__blocks {
+    grid-template-columns: 1fr;
+  }
+}

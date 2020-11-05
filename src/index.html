@@ -12,9 +12,9 @@
 </head>
 <body class="wrapper">
  <header class="header">
-   <div class="header__container">
-     <p class="language">Язык <span class="language__name">русский &#8744;</span></p>
-     <img class="eye" src="<%=require('./images/eye.svg').default%>" alt="глаз">
+   <div class="header__container header__margin">
+     <p class="language header__margin">Язык <span class="language__name">русский &#8744;</span></p>
+     <img class="eye header__margin" src="<%=require('./images/eye.svg').default%>" alt="глаз">
      <div class="phone">
        <div class="phone__images">
          <a class="phone__link phone__number" href="tel:+375447550101">+375 (44) 755-01-01</a>
@@ -37,7 +37,7 @@
      </div>
    </div>
    <div class="header__container">
-     <a class="navigation__link" href="./index.html">
+     <a class="navigation__link header__margin" href="./index.html">
        <img class="logo" src="<%=require('./images/logo.svg').default%>" alt="логотип">
      </a>
      <nav class="navigation">
@@ -46,7 +46,7 @@
        <a class="navigation__link" href="#services">Услуги</a>
        <a class="navigation__link" href="#price">Тарифы</a>
        <a class="navigation__link" href="#info">Инфоцентр</a>
-       <a class="navigation__link" href="#contcacts">Контакты</a>
+       <a class="navigation__link" href="#contacts">Контакты</a>
        <button class="navigation__link navigation__button" type="button">
          <img class="navigation__img" src="<%=require('./images/search.svg').default%>" alt="поиск">
        </button>
@@ -56,7 +56,7 @@
  </header>
  <div class="slider">
    <section class="cover">
-     <img class="cover__img" src="<%=require('./images/cover.png').default%>" alt="женщина в желтоп пиджаке сидит в кресле">
+     <img class="cover__img" src="<%=require('./images/cover.png').default%>" alt="женщина в желтом пиджаке сидит в кресле">
      <div class="cover__container">
        <h1 class="cover__title">Взыскание дебиторской задолженности</h1>
        <p class="cover__subtitle">Индивидуальный подход и нацеленность на достижение результата</p>
@@ -118,12 +118,11 @@
    <section class="about">
      <div class="about__container">
        <h2 class="about__title">Юридическое сопровождение бизнеса от «МК-Правовые технологии»</h2>
-       <p class="subtitle about__margin">Главный принцип нашей работы - качество. Постоянно следовать ему помогает сплоченная команда талантливых и энергичных сотрудников, способных сообща заниматься сложными проектами, никогда не допуская сбоев в работе.</p>
-       <p class="subtitle about__margin">Мы обеспечиваем максимальный уровень профессионального обслуживания, который можно ожидать от крупной юридической фирмы.</p>
-       <p class="subtitle about__margin">Нашу фирму отличают яркая индивидуальность и следование модели эффективного юридического обслуживания. Благодаря профессиональной гибкости мы находим творческие решения как обычных вопросов, так и неординарных проблем, возникающих у наших клиентов.</p>
-       <p class="subtitle about__margin">Все наши рекомендации основаны на глубоких академических знаниях и опыте практического применения в хозяйственном праве.</p>
+       <p class="subtitle about__subtitle">Главный принцип нашей работы - качество. Постоянно следовать ему помогает сплоченная команда талантливых и энергичных сотрудников, способных сообща заниматься сложными проектами, никогда не допуская сбоев в работе.</p>
+       <p class="subtitle about__subtitle">Мы обеспечиваем максимальный уровень профессионального обслуживания, который можно ожидать от крупной юридической фирмы.</p>
+       <p class="subtitle about__subtitle">Нашу фирму отличают яркая индивидуальность и следование модели эффективного юридического обслуживания. Благодаря профессиональной гибкости мы находим творческие решения как обычных вопросов, так и неординарных проблем, возникающих у наших клиентов.</p>
+       <p class="subtitle about__subtitle">Все наши рекомендации основаны на глубоких академических знаниях и опыте практического применения в хозяйственном праве.</p>
      </div>
-     <img class="about__img" src="<%=require('./images/about.png').default%>" alt="лестница">
    </section>
    <section class="directions container">
      <h2 class="title">Основные направления деятельности</h2>
@@ -235,33 +234,6 @@
          <p class="reviews__card-subtitle">директор</p>
          <h3 class="reviews__card-title">С.В. Косачев</h3>
          <p class="reviews__card-maintext">Уважаемая Светлана Александровна! Наша компания выражает благодарность и признательность обществу с ограниченной ответственностью «МК-Правовые технологии». Благодаря слаженной работе и высокой квалификации Ваших сотрудников и специалистов компания «ВиваСтрой» получила качественные юридические услуги по взысканию денежных средств с должника. Профессионализм работников ООО «МК-Правовые технологии», а также желание работать со сложными и нестандартными задачами является залогом высокоэффективного и успешного взаимодействия наших компаний. Рекомендуем...</p>
-         <button class="reviews__card-button" type="button">читать далее</button>
-       </div>
-     </li>
-     <li class="reviews__card">
-       <img class="reviews__card-img" src="<%=require('./images/reviews.jpg').default%>" alt="офисное помещение">
-       <div class="reviews__card-content">
-         <p class="reviews__card-subtitle">глава представительства</p>
-         <h3 class="reviews__card-title">Валерий Мяснянкин</h3>
-         <p class="reviews__card-maintext">Представительство корпорации «VMSN GROUP, INC.» (США) в Республике Беларусь на протяжении нескольких лет сотрудничает с ООО «МК-Правовые технологии» в рамках сопровождения деятельности по юридическим вопросам, в том числе по вопросам ведения кадрового делопроизводства – абонентское обслуживание. Хотелось бы отметить работу специалистов ООО «МК-Правовые технологии» хорошими теплыми словами: надёжные, обязательные, пунктуальные. Вопросы любой сложности им по плечу. Работая с профессионалами МК-Правовые технологии, всегда можно рассчитывать...</p>
-         <button class="reviews__card-button" type="button">читать далее</button>
-       </div>
-     </li>
-     <li class="reviews__card">
-       <img class="reviews__card-img" src="<%=require('./images/reviews.jpg').default%>" alt="офисное помещение">
-       <div class="reviews__card-content">
-         <p class="reviews__card-subtitle">директор</p>
-         <h3 class="reviews__card-title">С.В. Косачев</h3>
-         <p class="reviews__card-maintext">Уважаемая Светлана Александровна! Наша компания выражает благодарность и признательность обществу с ограниченной ответственностью «МК-Правовые технологии». Благодаря слаженной работе и высокой квалификации Ваших сотрудников и специалистов компания «ВиваСтрой» получила качественные юридические услуги по взысканию денежных средств с должника. Профессионализм работников ООО «МК-Правовые технологии», а также желание работать со сложными и нестандартными задачами является залогом высокоэффективного и успешного взаимодействия наших компаний. Рекомендуем...</p>
-         <button class="reviews__card-button" type="button">читать далее</button>
-       </div>
-     </li>
-     <li class="reviews__card">
-       <img class="reviews__card-img" src="<%=require('./images/reviews.jpg').default%>" alt="офисное помещение">
-       <div class="reviews__card-content">
-         <p class="reviews__card-subtitle">глава представительства</p>
-         <h3 class="reviews__card-title">Валерий Мяснянкин</h3>
-         <p class="reviews__card-maintext">Представительство корпорации «VMSN GROUP, INC.» (США) в Республике Беларусь на протяжении нескольких лет сотрудничает с ООО «МК-Правовые технологии» в рамках сопровождения деятельности по юридическим вопросам, в том числе по вопросам ведения кадрового делопроизводства – абонентское обслуживание. Хотелось бы отметить работу специалистов ООО «МК-Правовые технологии» хорошими теплыми словами: надёжные, обязательные, пунктуальные. Вопросы любой сложности им по плечу. Работая с профессионалами МК-Правовые технологии, всегда можно рассчитывать...</p>
          <button class="reviews__card-button" type="button">читать далее</button>
        </div>
      </li>
@@ -606,6 +578,9 @@
       </div>
     </div>
  </footer>
+ <section class="copyright">
+   <a class="copyright__text" href="https://webfocus.by/" target="_blank">Разработка и продвижение сайта - Digital агентство «Веб Фокус»</a>
+ </section>
  <script src="<%= htmlWebpackPlugin.files.js %>"></script>
 </body>
 </html>

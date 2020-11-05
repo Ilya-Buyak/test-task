@@ -7,3 +7,15 @@
   grid-row-gap: 30px;
   grid-column-gap: 30px;
 }
+
+@media screen and (max-width: 920px) {
+  .directions__cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .directions__cards {
+    grid-template-columns: 1fr;
+  }
+}

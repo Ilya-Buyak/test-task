@@ -23,3 +23,12 @@
     margin-left: 20px;
   }
 }
+
+@media screen and (max-width: 855px) {
+  .navigation__link {
+    margin: 10px 0 0 0;
+  }
+  .navigation__link:first-child {
+    margin: 0;
+  }
+}

@@ -9,10 +9,21 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   position: relative;
   padding: 15px 30px 20px 100px;
-  width: 50%;
   margin-bottom: 30px;
 }
 
-.services__card:nth-child(odd) {
-  margin-right: 30px;
+
+@media screen and (min-width: 701px) {
+  .services__card {
+    width: 50%;
+  }
+  .services__card:nth-child(odd) {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .services__card {
+    max-width: 550px;
+  }
 }

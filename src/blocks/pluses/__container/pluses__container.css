@@ -1,3 +1,9 @@
 .pluses__container {
   display: flex;
 }
+
+@media screen and (max-width: 910px) {
+  .pluses__container {
+    flex-direction: column;
+  }
+}

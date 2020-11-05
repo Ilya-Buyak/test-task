@@ -1,3 +1,5 @@
-.services__card.services__card_width {
-  width: 80%;
+@media screen and (min-width: 701px){
+  .services__card.services__card_width {
+    width: 80%;
+  }
 }
